@@ -1,0 +1,261 @@
+body{
+	box-sizing: border-box;
+	background-color: #ecc659;
+	font-family: "Chicle", Times;
+	font-size: 3em;
+	
+	margin: 0;
+	padding: 0;
+
+}
+/*===NAVIGATION STYLES===*/
+
+nav.navbar.navbar-inverse{
+	background-color: #6ab35a;
+	border: none;
+	opacity: 0.9;
+}
+
+button.navbar-toggle{
+	background-color: #ecc659;
+}
+
+.navbar-inverse .navbar-toggle{border-color: #ecc659;}
+
+.navbar-inverse .navbar-toggle .icon-bar{background-color: #6ab35a;}
+
+.navbar-inverse .navbar-toggle:hover{background-color: #6ab35a;}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar{background-color: #ecc659;}
+
+#myNavbar{border: none;}
+
+li.dropdown a.dropdown-toggle{color: #ecc659; text-align: center; text-shadow: 0px 1px 5px orange;}
+
+li.dropdown a.dropdown-toggle span.caret{color: #e85c3a;}
+
+li.dropdown a.dropdown-toggle:hover{color: #ecc659; text-shadow: 0px 1px 5px orange;}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #6ab35a;
+	color: #ecc659;
+}
+
+ul.dropdown-menu li a{ background-color: #6ab35a; color: #ecc659; font-size: 2em; text-align: center;}
+
+ul.dropdown-menu li a:hover{ background-color: #ecc659; color: #6ab35a; font-size: 2em; text-align: center;}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color: darkgreen;}
+
+/*===NAVIGATION STYLES===*/
+
+/*===INDEX STYLES===*/
+
+h1.index_h1{color: #6ab35a; text-align: center; text-shadow: 2px 2px 2px orange;}
+
+p.index_intro_paragraph{
+	background-color: #6ab35a;
+	border: 3px solid #e9eaeb;
+	border-radius: 15px 50px;
+	color: #ecc659;
+	opacity: 0.9;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 2px 2px 2px orange;
+
+}
+
+/*====================*/
+
+footer{	
+	color: #ecc659;
+	background-color: #6ab35a;
+	height: 50px;
+	opacity: 0.9;
+	text-align: center;
+	text-shadow: 2px 2px 2px orange;
+}
+
+.wrap{
+	min-height: calc(100vh - 50px);
+}
+
+/*===BIO-PAGE STYLES===*/
+
+	p#name{
+		color: #6ab35a;
+		font-size: 2em;
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+	p.intro{
+		background-color: #6ab35a;
+		border: 3px solid #e9eaeb;
+		border-radius: 15px 50px; 
+		color: #ecc659;
+		padding: 12px;
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+/*======================================*/
+
+/*===GET TO KNOW...PAGE STYLES===*/
+
+	.tboz_pic.img-circle.img-responsive, .chili_pic.img-circle.img-responsive, .lefteye_pic.img-circle.img-responsive{
+		border: 3px solid #6ab35a;
+		height: 400px;
+		width: 400px;
+	}
+
+	p.t-boz, p.chilli, p.lefteye{
+		color: #6ab35a;
+		font-size: 2em;
+		margin-top: 5px; 
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+	div.col-md-6 h1{
+		color: #ecc659;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+
+	.col-md-6{
+		background-color: #6ab35a;
+		border: 3px solid #e9eaeb;
+		color: #ecc659;
+		border-radius: 15px 50px;
+		margin-bottom: 30px;
+		padding: 15px;
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+	ul#list li{
+		list-style-type: none;
+	}
+
+/*================================*/
+
+/*===DISCOGRAPHY STYLES===*/
+	div.oooh, .crazysexycool, .fanmail, .threeD {
+		color: #6ab35a;
+		text-align: center;
+		text-shadow: 2px 2px 2px #000;
+	}
+	
+	h1.discography_h1{
+		color: #6ab35a;  
+		text-align: center; 
+		text-shadow: 2px 2px 2px orange;
+	}
+
+	.album{box-shadow: 4px 0px 2px #6ab35a;}
+
+	.info{
+		color: orange;
+
+	}
+
+/*========================*/
+ 
+/*===FORM STYLES===*/
+	
+	p.form_intro{
+		color: #6ab35a;
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+	}
+
+	.form_pic.img-responsive{
+		border: 3px solid #6ab35a;
+	}
+
+	label{color: #6ab35a; text-shadow: 2px 2px 2px orange; padding-top: 10px;}
+
+	input:focus, textarea:focus{background-color: #6ab35a; color: #ecc659; font-size: 20px;}
+
+	button{background-color: #6ab35a;  border-radius: 15px; color: #ecc659; font-size: 1em;}
+
+/*==================*/
+
+/*===SOURCES STYLES===*/
+
+	.container h1{
+		color: #6ab35a;		
+		text-align: center;
+		text-shadow: 2px 2px 2px orange;
+
+	}
+
+	div.group_source{float: left;}
+	div.discography_source{ float: left; margin-left: 8em;}
+	div.members_source{float: right;}
+
+	div.discography_source{margin-left: 3em;}
+
+	div.group_source 
+	h2, 
+	div.members_source h2,
+	div.group_source h2, 
+	div.discography_source h2{
+		color: #6ab35a; 
+		text-shadow: 2px 2px 2px orange;
+	} 
+
+	
+
+/*====================*/
+
+/*===MEDIA STYLES===*/
+	@media only screen and (min-width: 768px){
+
+		.col-md-6{
+			bottom: 350px;
+			float: right;
+			position: relative;
+			text-align: left;
+		}
+
+		footer{clear: both;}
+
+		.col-md-6 h1{
+			text-align: center;
+		}
+
+		p.index_intro_paragraph{text-align: left;}
+
+		p.intro{text-align: left;}
+
+		.col-md-6 h2{text-align: center;}
+		
+		p.t-boz, p.lefteye, p.chilli{
+			float: left;
+			left: 145px;
+			position: relative;
+			
+		}
+
+		ol.tracklist li{
+			list-style-type: none;
+
+		}
+
+		div.oooh{float: left;}
+
+		div.fanmail{float: left; clear: left;}
+
+		div.oooh, div.crazysexycool, div.fanmail, .threeD{
+			margin-bottom: 3em;
+		}
+
+		div.discography_source{margin-left: 10em;}
+	}
+/*==================*/
+
+
+
+
