@@ -1,9 +1,23 @@
+
+/*
+Developer: Kierra Birdow
+Table of Contents
+HEADER - logo, main menu
+SIDEBAR - none
+MAINCONTENT - Bios, Discography, Form
+FOOTER – Copyright
+Color Palette
+#6AB35a - Green
+#ECC659 - Yellow
+*/
+
+
+
 body{
 	box-sizing: border-box;
 	background-color: #ecc659;
 	font-family: "Chicle", Times;
 	font-size: 3em;
-	
 	margin: 0;
 	padding: 0;
 
@@ -51,6 +65,8 @@ ul.dropdown-menu li a:hover{ background-color: #ecc659; color: #6ab35a; font-siz
 
 /*===INDEX STYLES===*/
 
+img[alt="TLC logo"]{position: absolute; top: 0px; display: none;}
+
 h1.index_h1{color: #6ab35a; text-align: center; text-shadow: 2px 2px 2px orange;}
 
 p.index_intro_paragraph{
@@ -71,7 +87,9 @@ footer{
 	color: #ecc659;
 	background-color: #6ab35a;
 	height: 50px;
+	width: 100%;
 	opacity: 0.9;
+	overflow: hidden;
 	text-align: center;
 	text-shadow: 2px 2px 2px orange;
 }
@@ -156,7 +174,7 @@ footer{
 	.album{box-shadow: 4px 0px 2px #6ab35a;}
 
 	.info{
-		color: orange;
+		color: #4C8040;
 
 	}
 
@@ -178,7 +196,7 @@ footer{
 
 	input:focus, textarea:focus{background-color: #6ab35a; color: #ecc659; font-size: 20px;}
 
-	button{background-color: #6ab35a;  border-radius: 15px; color: #ecc659; font-size: 1em;}
+	button{background-color: #6ab35a;  border-radius: 15px; color: #ecc659; font-size: 1.30em; display: block; margin: auto;}
 
 /*==================*/
 
@@ -206,12 +224,12 @@ footer{
 		text-shadow: 2px 2px 2px orange;
 	} 
 
-	
-
-/*====================*/
+	/*==============*/
 
 /*===MEDIA STYLES===*/
 	@media only screen and (min-width: 768px){
+
+		 header img[src="photos/tlc_logo.jpg"]{position: absolute; top: 0; display: initial;}
 
 		.col-md-6{
 			bottom: 350px;
@@ -252,10 +270,25 @@ footer{
 			margin-bottom: 3em;
 		}
 
+		div.form-group{width: 66%;}
+
 		div.discography_source{margin-left: 10em;}
 	}
-/*==================*/
 
+		footer{	
+			color: #ecc659;
+			background-color: #6ab35a;
+			height: 50px;
+			opacity: 0.9;
+			padding-top: 10px;
+			text-align: center;
+			text-shadow: 2px 2px 2px orange;
+		}
+
+		.wrap{
+			min-height: calc(100vh - 50px);
+		}
+/*==================*/
 
 
 
